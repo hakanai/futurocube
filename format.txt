@@ -1,0 +1,66 @@
+Futuro Cube resource file format
+
+Header - 44 bytes
+
+In English resource file (031212):
+45 77 98 AA F6 06 D8 35 02 00 00 00 B9 94 BC 50 46 75 74 52 65 73 30 33 31 32 31 32 00 00 00 00 00 00 00 00 12 01 00 00 00 00 E4 05
+
+Disassembled:
+  45 77 98 AA = probably the magic number (same on all files)
+  F6 06 D8 35 - ??? possible checksum
+  02 00 00 00 - probably the file version number (same on all files)
+  B9 94 BC 50 - ??? possible checksum
+  46 75 74 52 65 73 30 33 31 32 31 32 00 00 00 00 00 00 00 00 = (ASCII) "FutRes031212"
+  12 01 00 00 = 0x0112 (number of records)
+  00 00 E4 05 = 0x05E40000 (total size of the resource file)
+
+In "loud" Czech resource file (070613_CZ):
+45 77 98 AA 5E 02 BB AD 02 00 00 00 EE F8 B1 51 46 75 74 52 65 73 30 37 30 36 31 33 5F 43 5A 00 00 00 00 00 FE 00 00 00 00 00 7D 06
+
+Disassembled:
+  45 77 98 AA
+  5E 02 BB AD
+  02 00 00 00
+  EE F8 B1 51
+  46 75 74 52 65 73 30 37 30 36 31 33 5F 43 5A 00 00 00 00 00 = (ASCII) "FutRes070613_CZ"
+  FE 00 00 00
+  00 00 7D 06
+
+In "soft" Czech resource file (070625_CZ):
+  45 77 98 AA
+  A3 E0 7F 09
+  02 00 00 00
+  1D 9F C9 51
+  46 75 74 52 65 73 30 37 30 36 32 35 5F 43 5A 00 00 00 00 00 = (ASCII) "FutRes070625_CZ"
+  FF 00 00 00
+  00 08 93 06
+
+Resource record - 32 bytes, 274 of these in this particular file
+
+first one in the list:
+  31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 = (ASCII) "1"
+  01 00 00 00 - probably a format identifier (1 for all records in all files)
+  00 28 00 00 = 0x2800 (offset to data)
+  00 72 00 00 = 0x7200 (offset to data)
+
+three sequential ones from somewhere in the middle of the list:
+61 70 70 6C 65 62 69 74 65 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 70 E4 03 80 1C 03 00
+62 61 6C 6C 68 69 74 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 90 E7 03 5E 2B 00 00
+62 65 65 70 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 C0 E7 03 12 2D 00 00
+
+Disassembled:
+  61 70 70 6C 65 62 69 74 65 00 00 00 00 00 00 00 00 00 00 00 = (ASCII) "applebite", the filename
+  01 00 00 00
+  00 70 E4 03 - 0x03E47000 (offset to data)
+  80 1C 03 00 - 0x00031C80 (length of data)
+                        offset + length = 0x03E78C80
+  next entry start: 00 90 E7 03 = 0x03E79000 (gap of 0x380, looks like it's padded with 0s so probably done just to align it.)
+
+0x2800 (10240) - start of actual data
+
+  Format of audio data seems to be raw PCM, signed 16-bit little endian mono @22050Hz.
+  Dumping the file from the middle of the list gives a working raw file but a header would be nice.
+
+0x5E40000 - end of file
+
+
