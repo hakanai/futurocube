@@ -9,7 +9,7 @@ require_relative 'resource_file'
 def list(file)
   ResourceFile.open(file) do |rf|
     rf.records.each do |rec|
-      puts rec.name
+      puts "#{rec.name.ljust(20)}   #{rec.data_length.to_s.rjust(10)}"
     end
   end
 end
