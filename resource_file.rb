@@ -24,6 +24,7 @@ class ResourceFile
     @io = io
   end
 
+  # Reads the header from the resource file.
   def header
     if !@header
       @io.seek(0, IO::SEEK_SET)
@@ -32,6 +33,7 @@ class ResourceFile
     @header
   end
 
+  # Reads the list of records from the resource file.
   def records
     if !@records
       @io.seek(44, IO::SEEK_SET)
@@ -44,9 +46,31 @@ class ResourceFile
     @records
   end
 
+  # Reads the data for a given record.
+  #
+  # @param rec [ResourceRecord] the record to read the data for.
   def data(rec)
     @io.seek(rec.data_offset)
     @io.read(rec.data_length)
+  end
+
+  # Computes the checksum for the resource file.
+  #
+  # @yield [done, total] Provides feedback about the progress of the operation.
+  def compute_checksum(&block)
+    crc = CRC.new
+    @io.seek(8)
+    pos = 8
+    length = 4096-8
+    file_size = header.file_size
+    block.call(0, file_size) if block
+    while length > 0
+      crc.update(@io.read(length))
+      pos += length
+      length = [4096, file_size-pos].min
+      block.call(pos, file_size) if block
+    end
+    crc.crc
   end
 
   def self.open(file, &block)

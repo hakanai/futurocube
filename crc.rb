@@ -1,7 +1,14 @@
 class CRC
+  def initialize
+    reset
+  end
 
-  def calc_block_crc(input)
-    crc = 0xFFFFFFFF
+  def reset
+    @crc = 0xFFFFFFFF
+  end
+
+  def update(input)
+    crc = @crc
     input.unpack('V*').each do |data|
       32.times do
         if ((data ^ crc) & 0x80000000) != 0
@@ -12,8 +19,11 @@ class CRC
         data = (data << 1) & 0xFFFFFFFF
       end
     end
-    crc
+    @crc = crc
   end
 
+  def crc
+    @crc
+  end
 end
 
