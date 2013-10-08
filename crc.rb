@@ -12,12 +12,14 @@ class CRC
     crc = @crc
     table = @table
 
-    input.unpack('V*').each do |data|
+    # Original algorithm does it little-endian then iterates from the high byte.
+    # I read it big-endian and then iterate from the low byte, saving some bit maths.
+    input.unpack('N*').each do |data|
       4.times do
-        table_index = (data >> 24) ^ (crc >> 24)
+        table_index = (data & 0xFF) ^ (crc >> 24)
         crc = (crc << 8) & 0xFFFFFFFF
         crc = crc ^ table[table_index]
-        data = (data << 8) & 0xFFFFFFFF
+        data >>= 8
       end
     end
 
