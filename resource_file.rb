@@ -2,9 +2,9 @@ class ResourceFile
   class FileHeader < BinData::Record
     endian :little
     uint32 :magic
-    uint32 :checksum1
+    uint32 :checksum
     uint32 :version
-    uint32 :checksum2
+    uint32 :created
     string :name, :length => 20, :trim_padding => true
     uint32 :record_count
     uint32 :file_size
