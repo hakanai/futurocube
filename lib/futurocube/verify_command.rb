@@ -1,6 +1,5 @@
 require_relative 'resource_file'
 require_relative 'command_helper'
-require_relative 'crc'
 
 module FuturoCube
   class VerifyCommand
