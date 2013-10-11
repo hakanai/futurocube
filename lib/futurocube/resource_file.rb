@@ -1,5 +1,7 @@
 require 'bindata'
 
+require_relative 'crc'
+
 module FuturoCube
   class ResourceFile
     class FileHeader < BinData::Record

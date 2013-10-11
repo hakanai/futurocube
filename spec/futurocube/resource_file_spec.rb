@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-#require 'futurocube/resource_file'
+require 'futurocube/resource_file'
 
 describe FuturoCube::ResourceFile do
   before do
@@ -8,6 +8,14 @@ describe FuturoCube::ResourceFile do
 
   after do
     @rf.close
+  end
+
+  describe '::open' do
+    it 'yields the ResourceFile to the block' do
+      FuturoCube::ResourceFile.open('FutRes031212.bin') do |rf|
+        rf.should be_a FuturoCube::ResourceFile
+      end
+    end
   end
 
   describe '#header' do

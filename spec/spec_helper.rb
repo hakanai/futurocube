@@ -1,4 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
-Bundler.require
+Bundler.setup
 
+require 'simplecov'
+SimpleCov.start
