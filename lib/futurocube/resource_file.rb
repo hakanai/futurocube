@@ -62,17 +62,19 @@ module FuturoCube
     # @yield [done] Provides feedback about the progress of the operation.
     def compute_checksum(&block)
       crc = CRC.new
+      # Have to read this first because it might change the seek position.
+      file_size = header.file_size
       @io.seek(8, IO::SEEK_SET)
       pos = 8
       length = 4096-8
-      file_size = header.file_size
       buf = nil
-      while length > 0
+      while true
         buf = @io.read(length, buf)
+        break if !buf
         crc.update(buf)
-        pos += length
-        length = [4096, file_size-pos].min
+        pos += buf.size
         block.call(pos) if block
+        length = 4096
       end
       crc.crc
     end
