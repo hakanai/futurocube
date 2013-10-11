@@ -9,8 +9,8 @@ module FuturoCube
     def exec(file)
       ResourceFile.open(file) do |rf|
         expected = rf.header.checksum
-        with_progress('Checking', rf.header.file_size) do |progress|
-          actual = rf.compute_checksum do |done|
+        actual = with_progress('Checking', rf.header.file_size) do |progress|
+          rf.compute_checksum do |done|
             progress.set(done)
           end
         end
