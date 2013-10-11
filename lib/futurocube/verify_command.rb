@@ -1,14 +1,19 @@
+require_relative 'resource_file'
+require_relative 'command_helper'
+require_relative 'crc'
+
 module FuturoCube
   class VerifyCommand
+    include CommandHelper
+
     def exec(file)
       ResourceFile.open(file) do |rf|
         expected = rf.header.checksum
-        progress = nil
-        actual = rf.compute_checksum do |done, total|
-          progress ||= ProgressBar.new("Checking", total)
-          progress.set(done)
+        with_progress('Checking', rf.header.file_size) do |progress|
+          actual = rf.compute_checksum do |done|
+            progress.set(done)
+          end
         end
-        progress.finish
 
         if actual == expected
           puts "  Checksum %08X OK" % [actual]

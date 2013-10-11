@@ -1,9 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'rubygems'
-require 'bundler/setup'
-Bundler.require
-
-require_relative '../lib/futurocube/resource_tool'
-
-FuturoCube::ResourceTool.new.main(ARGV)

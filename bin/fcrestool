@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'futurocube'
+
+FuturoCube::ResourceTool.new.main(ARGV)

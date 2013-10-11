@@ -1,3 +1,5 @@
+require_relative 'resource_file'
+
 module FuturoCube
   class ListCommand
     def exec(file)

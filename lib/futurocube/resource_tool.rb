@@ -1,7 +1,4 @@
 
-require_relative 'resource_file'
-require_relative 'crc'
-
 require_relative 'list_command'
 require_relative 'verify_command'
 require_relative 'dump_command'
@@ -31,7 +28,11 @@ module FuturoCube
 
       command_args = args.slice(1..-1)
       usage if !command.args_valid?(command_args)
-      command.exec(*command_args)
+      begin
+        command.exec(*command_args)
+      rescue Interrupt => e
+        $stderr.puts("Interrupted")
+      end
     end
   end
 end

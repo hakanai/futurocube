@@ -1,3 +1,5 @@
+require 'bindata'
+
 class ResourceFile
   class FileHeader < BinData::Record
     endian :little
@@ -56,19 +58,18 @@ class ResourceFile
 
   # Computes the checksum for the resource file.
   #
-  # @yield [done, total] Provides feedback about the progress of the operation.
+  # @yield [done] Provides feedback about the progress of the operation.
   def compute_checksum(&block)
     crc = CRC.new
     @io.seek(8)
     pos = 8
     length = 4096-8
     file_size = header.file_size
-    block.call(0, file_size) if block
     while length > 0
       crc.update(@io.read(length))
       pos += length
       length = [4096, file_size-pos].min
-      block.call(pos, file_size) if block
+      block.call(pos) if block
     end
     crc.crc
   end
