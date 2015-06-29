@@ -1,173 +1,170 @@
 
-name of resource     size (bytes)
-=================================
-
 Numbers, used when reading out scores
 
-1                           29184
-2                           25344
-3                           27648
-4                           26112
-5                           34560
-6                           31488
-7                           25344
-8                           22272
-9                           24576
-10                          24576
-11                          26880
-12                          33792
-13                          33792
-14                          33792
-15                          36096
-16                          37632
-17                          36864
-18                          30720
-19                          33024
-20                          25344
-30                          26880
-40                          24576
-50                          25344
-60                          28416
-70                          28416
-80                          28416
-90                          29952
-100                         32256
-200                         33024
-300                         33792
-400                         38400
-500                         33792
-600                         34560
-700                         36096
-800                         31488
-900                         34560
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+30
+40
+50
+60
+70
+80
+90
+100
+200
+300
+400
+500
+600
+700
+800
+900
 
 More numbers, slightly different sound, not sure why there are two sets.
 
-_s_1                        23388
-_s_2                        23056
-_s_3                        25708
-_s_4                        30876
-_s_5                        33250
-_s_6                        32040
-_s_7                        26400
-_s_8                        24846
-_s_9                        28672
-_s_10                       21854
-_s_11                       29502
-_s_12                       34616
-_s_13                       30096
-_s_14                       37160
-_s_15                       35910
-_s_16                       32904
-_s_17                       44378
-_s_18                       47104
-_s_19                       34344
-_s_20                       28016
-_s_30                       34358
-_s_40                       27800
-_s_50                       32454
-_s_60                       36114
-_s_70                       31140
-_s_80                       25740
-_s_90                       30066
-_s_100                      30004
+_s_1
+_s_2
+_s_3
+_s_4
+_s_5
+_s_6
+_s_7
+_s_8
+_s_9
+_s_10
+_s_11
+_s_12
+_s_13
+_s_14
+_s_15
+_s_16
+_s_17
+_s_18
+_s_19
+_s_20
+_s_30
+_s_40
+_s_50
+_s_60
+_s_70
+_s_80
+_s_90
+_s_100
 
 Notes, used in the piano app, though it sounds like strings
 
-_a1                         45296
-_a2                         33878
-_a3                         33742
-_a4                         32586
-_a#1                        45208
-_a#2                        32158
-_a#3                        34116
-_a#4                        33622
-_h1                         45282
-_h2                         32372
-_h3                         32438
-_h4                         32586
-_c1                         45142
-_c2                         32536
-_c3                         32454
-_c4                         33656
-_c5                         32390
-_c#1                        45700
-_c#2                        32472
-_c#3                        33860
-_c#4                        32308
-_d1                         47046
-_d2                         32078
-_d3                         33588
-_d4                         33606
-_d#1                        46412
-_d#2                        33674
-_d#3                        34336
-_d#4                        32520
-_e1                         45570
-_e2                         32390
-_e3                         33420
-_e4                         32438
-_f1                         45602
-_f2                         32438
-_f3                         33690
-_f4                         33606
-_f#1                        46558
-_f#2                        33690
-_f#3                        32454
-_f#4                        32504
-_g1                         45476
-_g2                         34184
-_g3                         32734
-_g4                         33776
-_g#1                        45606
-_g#2                        32390
-_g#3                        34048
-_g#4                        32472
+_a1
+_a2
+_a3
+_a4
+_a#1
+_a#2
+_a#3
+_a#4
+_h1
+_h2
+_h3
+_h4
+_c1
+_c2
+_c3
+_c4
+_c5
+_c#1
+_c#2
+_c#3
+_c#4
+_d1
+_d2
+_d3
+_d4
+_d#1
+_d#2
+_d#3
+_d#4
+_e1
+_e2
+_e3
+_e4
+_f1
+_f2
+_f3
+_f4
+_f#1
+_f#2
+_f#3
+_f#4
+_g1
+_g2
+_g3
+_g4
+_g#1
+_g#2
+_g#3
+_g#4
 
 Chords, haven't heard these yet
 
-_chordAdur                  87910
-_chordHdur                  88650
-_chordCdur                  88134
-_chordDdur                  88038
-_chordEdur                  88040
-_chordFdur                  88134
-_chordGdur                  88212
+_chordAdur
+_chordHdur
+_chordCdur
+_chordDdur
+_chordEdur
+_chordFdur
+_chordGdur
 
 Music clips
 
-_d_17                     2464768
-_d_AFRIKA                 3725744
-_d_CONFESS                2846948
-_d_DO                     3593016
-_d_EUROBEAT               2522986
-_d_EXP                    3059332
-_d_EXPECT                 3811394
-_d_MINDFULL               1773428
-_d_PIANO                  2052522
-_d_SHAN                   3432598
-_d_THERE                  3950384
-COMEANDFIND               3403132
-FORTYREWRITE              6143456
-FU3                        604800
-HAVOK                     2782004
-INSTRM2                   1363470
-STRANGE                   1904878
-TRAPPED                   2312928
-UFO                       4070440
+_d_17
+_d_AFRIKA
+_d_CONFESS
+_d_DO
+_d_EUROBEAT
+_d_EXP
+_d_EXPECT
+_d_MINDFULL
+_d_PIANO
+_d_SHAN
+_d_THERE
+COMEANDFIND
+FORTYREWRITE
+FU3
+HAVOK
+INSTRM2
+STRANGE
+TRAPPED
+UFO
 
 Messages used while charging the cube
 
-_ch_CHARGEDONE              89886
+_ch_CHARGEDONE
   "Here's your credit card; charge completed."
-_ch_CHARGING               101674
+_ch_CHARGING
   "Hope you brought your cash, 'cos we're chargin'"
-power                       22492
+power
   "Power, ..."
 
 Tutorials
 
-_h_GAMEMENU               1215592
+_h_GAMEMENU
   "This is the game menu.
    Each side has an icon that represents a game or application.
    To select a particular game, rotate its icon to the top.
@@ -176,7 +173,7 @@ _h_GAMEMENU               1215592
    To reset the game to its original state, and this is very useful for rotation-type puzzles,
    tap from the top at least three times in a row.
    If you tap from the side, you'll get another menu, with a different set of games, or settings."
-_t_TUT1                   1275998
+_t_TUT1
   "Hi, I'm your new Futuro Cube. We're gonna have a lot of fun together.
    But before we start, you have to learn have to communicate with me.
    Remember, my surface is not like your cell phone touchscreen.
@@ -185,7 +182,7 @@ _t_TUT1                   1275998
    or if you use some special gestures.
    I prepared a little tutorial for you, but if you don't wanna go over it,
    just leave me still for a while. I'll switch myself off."
-_t_TUT2                   1563624
+_t_TUT2
   "Now we learn how to tap me.
    Try holding me firmly with one hand, while tapping lightly with your index finger from your other hand.
    At the beginning, it's better if you hit with the tip rather than the pad.
@@ -193,10 +190,10 @@ _t_TUT2                   1563624
    Also, try to hit the centre of the side, rather than the edges.
    Practice a few times, and you'll find you don't have to use much force at all.
    The steadier you hold, the less force that is needed.
-   There's a moving spot that goes towards the side you tap on.
+   There's a moving spot, which goes towards the side you tap on.
    It moves one spot at a time.
    Navigate this moveable spot to pick up all the diamonds. DIAMONDS."
-_t_TUT3                   1153472
+_t_TUT3
   "Okay, we're making good progress.
    Now we got a little puzzle for you.
    Actually, it's the first game you can play.
@@ -204,10 +201,10 @@ _t_TUT3                   1153472
    Let's practice that.
    Each side of the cube has a different icon and a different colour.
    To complete this little game, you have to make all the icons one shape and one colour.
-   It's actually easy. You rotate the cube, try click the top and from the sides, and see what happens.
+   It's actually easy. You rotate the cube, try to click the top and from the side; see what happens.
    You should be able to solve this really quickly."
    * 'click' here should have been 'tap'
-_t_TUT4                   1336392
+_t_TUT4
   "Great job so far! Now [we'll] learn a very nice feature.
    The cube has its own cursor, imagined as a spot at the very top of the cube,
    no matter how you rotate or hold me.
@@ -217,7 +214,7 @@ _t_TUT4                   1336392
    So to pass this exercise, make a tight circular path with the gravity cursor around all stable spots.
    If you do complete the circle correctly, the spot will disappear.
    Make all the spots disappear, and we'll move forward."
-_t_TUT5                   2273280
+_t_TUT5
   "Congratulations! You're just two steps from all the challenges I have for you.
    Now we'll learn how to open the game menu any time during your play.
    From this menu, you can later start any game you like.
@@ -231,7 +228,7 @@ _t_TUT5                   2273280
    but remember, do not rotate your wrist, and use proper speed.
    Do it three times, and we're almost finished."
    * Ugh, Karate Kid, someone has to kill this thing with fire.
-_t_TUT6                   1569792
+_t_TUT6
   "Lastly, a very useful thing to know is how to switch me on and off.
    Remember, you can only do this in the main menu.
    If you've already mastered how to tap me, try double-tapping me, from the bottom.
@@ -241,100 +238,100 @@ _t_TUT6                   1569792
    Or maybe I'm in transportation mode, or maybe I'm ignoring you.
    In all cases, plug the USB cable into me.
    And now, once more, let's test the double-tap, three times."
-_t_TUT7                    533770
+_t_TUT7
   "Great! Now the tutorial is over.
    I'm gonna start the game menu for you.
    If you wanna run the tutorial again, just find it on the menu.
    Now, let the fun begin. Enjoy!"
-_t_1TIME                   147764
+_t_1TIME
   "Pretty good, first-timer! Let's go two more rounds."
-_t_2TIME                    84882
+_t_2TIME
   "Nice... Once more."
-_t_3TIME                    72276
+_t_3TIME
   "Bam! Nice job."
-_t_MANHANDLE               184368
+_t_MANHANDLE
   "Remember, you don't have to man-handle me. I'm very sensitive."
-_t_NODIR                    69960
+_t_NODIR
   "It doesn't tell me *any* direction."
 
 Messages used when trying to establish a multiplayer game
 
-_c_DIFFGAMES               243712
+_c_DIFFGAMES
   "Yo! You both must select the same game! Otherwise I don't know what you wanna play."
-_c_ESTABLISHED              83968
+_c_ESTABLISHED
   "Connection established. Yeah, buddy!"
-_c_MUSTRESTART             126976
+_c_MUSTRESTART
   "You have to restart the connecting process again."
-_c_WAITING                 131072
+_c_WAITING
   "Waiting for the other player... as usual."
-_c_WAITOP                   59636
+_c_WAITOP
   "Waiting for the other player."
-_j_CONNECTIONLOST           82574
+_j_CONNECTIONLOST
   "Connection lost"
-_n_channelsel               52480
+_n_channelsel
   "Channel selection"
-channel                     25578
+channel
   "Channel"
-_n_powersel                 53362
+_n_powersel
   "Power selection"
-_n_reception                37044
+_n_reception
   "Reception"
-_n_transmission             40572
+_n_transmission
   "Transmission"
-cont_rx                     74530
+cont_rx
   "Continuous reception"
-cont_tx                     79380
+cont_tx
   "Continuous transmission"
 
 Menu names
 
-_m_MENUA                    38776
+_m_MENUA
   "Menu A"
-_m_MENUB                    38456
+_m_MENUB
   "Menu B"
-_m_MENUC                    41408
+_m_MENUC
   "Menu C"
 
 Names of each game/app
 
-_n_CONNECT                  49152
+_n_CONNECT
   "Connect"
-_n_CUBRIS                   38912
+_n_CUBRIS
   "Cubris"
-_n_DREAMQUEST               55296
+_n_DREAMQUEST
   "Dream Quest"
-_n_GOMOKU                   47104
+_n_GOMOKU
   "Gomoku"
-_n_GRAVITYCH                59392
+_n_GRAVITYCH
   "Gravity Challenge"
-_n_GRAVITYP                 49152
+_n_GRAVITYP
   "Gravity Puzzle"
-_n_MULTICONNECT             63488
+_n_MULTICONNECT
   "Multi Connect"
-_n_MULTICUBRIS              50688
+_n_MULTICUBRIS
   "Multi Cubris"
-_n_MULTIGOMOKU              67584
+_n_MULTIGOMOKU
   "Multi Gomoku"
-_n_PIANO                    65536
+_n_PIANO
   "Piano"
-_n_RINGDREAM                37632
+_n_RINGDREAM
   "Ring Dream"
-_n_ROADRUNNER               45056
+_n_ROADRUNNER
   "Roadrunner"
-_n_SNAKE                    51200
+_n_SNAKE
   "Snake"
-_n_SOKOBAN                  49152
+_n_SOKOBAN
   "Sokoban"
-_n_TRANSPORT                79872
+_n_TRANSPORT
   "Transportation Mode"
-_n_TUTORIAL                 32256
+_n_TUTORIAL
   "Tutorial"
-_g_VOLUMECNTRL              46822
+_g_VOLUMECNTRL
   "Volume Control"
 
 Explanation of each game/app
 
-_e_CONNECT                 904276
+_e_CONNECT
   "Try to beat the connecting force of the cube.
    The aim is to connect any two centre symmetric spots before your opponent.
    You cannot, however, connect on a diagonal line.
@@ -344,7 +341,7 @@ _e_CONNECT                 904276
    * This last line about the alert is probably an error, and refers to _e_MULTICONNECT below.
      It is included here for completeness.
 
-_e_CUBRIS                 1255424
+_e_CUBRIS
   "Tetris on a cube. Who wouldn't wanna try that?
    Tap on a side to rotate the piece.
    Tap from the top to place that piece.
@@ -352,9 +349,10 @@ _e_CUBRIS                 1255424
    If you create a ring around the cube, the ring disappears.
    If you do it with the same colour, BONUS!
    Remember, the pieces will always appear on the same side, and you have to pick them up.
-   You can't fill that side, but it's wise to placing as far as possible from that position."
+   You can't fill that side, but it's wise to start placing as far as possible from that
+   position."
 
-_e_DREAMQUEST             1050298
+_e_DREAMQUEST
   "Ready your brain to serve as a display unit.
    A new random maze is generated, but you never see the maze!
    You walk through the maze, by... rotating the cube... like you would do if... you were... a walking cube.
@@ -362,33 +360,34 @@ _e_DREAMQUEST             1050298
    Find all the sound spots, and make your journey from the lowest sound spot to the highest.
    You have to go in order, otherwise you fail."
 
-_e_GOMOKU                  757248
+_e_GOMOKU
   "Try to beat the dark force of the cube.
    This is the classic five-in-a-row, on a cubic surface.
    Special rule is that diagonals of opposite sides are connected.
    Rememeber, you have to confirm every move you make.
    If you miss the right spot, move the cursor away and try again.
    May the force be with you."
+   * Star Wars reference here.
 
-_e_GRAVITYCH              1463540
+_e_GRAVITYCH
   "This is a very relaxing game and I'm not going to give any hints how to play.
    That's part of the game; you'll figure it out.
    Okay, I lied. I'll give you some hints.
    You only work with the top side... and spots like falling down if they can. Try to tap!
    I can also tell ya,
-   you have to collect all spots of the same colour in one uniquely coloured collective area.
+   you have to collect all spots of the same colour in one uniquely coloured connected area.
    This area is not limited to one single side.
    Diagonal connection is not counted,
    and different coloured connected areas cannot directly touch each other.
    To reset this puzzle to its original state, tap the menu from the top at least three times."
 
-_e_GRAVITYP                662016
+_e_GRAVITYP
   "The gravity puzzle is a lovely rotation puzzle. If you like Rubik's cube, try this.
    You need to get each colour on its own side.
    All transfers are by side tap and top tap.
    To reset this puzzle to its original state, tap the menu from the top at least three times."
 
-_e_MULTICONNECT            890880
+_e_MULTICONNECT
   "This game is for two players with two cubes.
    The aim is to connect any two centre symmetric spots before your opponent.
    You cannot, however, connect on a diagonal line.
@@ -396,19 +395,19 @@ _e_MULTICONNECT            890880
    After your opponent moves, adjacent spots or his move, and some others, are forbidden for you.
    If you hear an alert beeping, move the cubes closer - you might be too far for communication."
 
-_e_MULTICUBRIS            1053678
+_e_MULTICUBRIS
   "Have you mastered Cubris for one player? Then here's the right challenge for you and one of your friends.
    Connect your cubes, and you'll receive the same set of pieces to place.
    Time is running, and you must survive, otherwise your score is not counted.
    If you finish faster, you gain some points for your opponent's laziness.
    However, what if you place the pieces slower, but smarter?  OH, SNAP!"
 
-_e_MULTIGOMOKU             431616
+_e_MULTIGOMOKU
   "Five-in-a-row for two players with two cubes.
    It's the same rules as Gomoku.
    If you hear the cube alert beeping, go closer with the cubes - you might be too far for communication."
 
-_e_PIANO                   828416
+_e_PIANO
   "♬ Play that funky music ♬ ...ah, sorry.
    Welcome to our musical challenge.
    Expect lots of practice, and try to be precise by hitting the centre of the sides.
@@ -416,7 +415,7 @@ _e_PIANO                   828416
    therefore just playing the full scale can be difficult.
    Once you master a complicated piece, share it on the Internet."
 
-_e_RINGDREAM               976896
+_e_RINGDREAM
   "This is a very delicate and motion-sensitive game for long, romantic evenings.
    Nah, it's just an easy rotation puzzle; everybody can solve it.
    Just select the ring by rotating the cube and then by tapping, twist the ring.
@@ -424,130 +423,320 @@ _e_RINGDREAM               976896
    Once every side is the same colour, you're done!
    To reset this puzzle to the original state, tap the menu from the top at least three times."
 
-_e_ROADRUNNER              457728
+_e_ROADRUNNER
   "Keep the roadrunner on the top side. The faster you follow, the faster he moves.
    If you're not fast enough, he waits for you, but you lose your speed in distance.
    Try to go as far as possible."
 
-_e_SNAKE                   396288
+_e_SNAKE
   "Eat as many apples as you can, without eating yourself.
    Sounds easy. Normally you wouldn't eat yourself anyway, right?
    Well then, let's see what your final score'll be."
 
-_e_SOKOBAN                 973368
+_e_SOKOBAN
   "The classic computer game on a Futuro-surface.
    It makes perfect sense to play this game on a cube, 'cos you can always move it aside (wink wink.)
    We've prepared the mazes; your goal is to move the bricks to the right spots.
    You change your position by tapping on the sides.
    If you wanna take your move back, just tap the bottom.  [lewd] Hehehe... tap the bottom."
 
-_e_TRANSPORT               270336
+_e_TRANSPORT
   "Transportation mode. This is such a turn-off.
    You're gonna have to plug a USB cable into me to turn me on again."
 
-_e_TUTORIAL                495360
+_e_TUTORIAL
   "Here you've found a great introduction to Futuro Cube for new players.
    We'll go through several basic steps to show you how to control me, and what's important to know.
    Go ahead, I have your instructions ready."
 
-_e_VOLUMECNTRL             166682
+_e_VOLUMECNTRL
   "Select the right volume for speech and music, and confirm it by tapping from the top."
 
-_h_NOHELP                   83932
+_h_NOHELP
   "Sorry, I... cannot help you."
-_j_TAPTHREETIMES           118740
+_j_TAPTHREETIMES
   "You have to tap three times."
 
 Miscellaneous speech during games
 
-_g_DRAWGAME                 46374
+_g_DRAWGAME
   "Draw game"
-_g_FORBIDDENPLACE           68096
+_g_FORBIDDENPLACE
   "That spot is taboo, sucka!"
-_g_SHUFFLING                27112
+_g_SHUFFLING
   "Shuffling"
-_g_TAPFORSHUFFLE            52224
+_g_TAPFORSHUFFLE
   "Tap for shuffling"
-_g_TAPTOSTART               42570
+_g_TAPTOSTART
   "Tap to start"
-_j_NEXTLEVEL               103836
+_j_NEXTLEVEL
   "Next level, yeehaw!"
-_s_DTAPTORESTART            73728
+_s_DTAPTORESTART
   "Double-tap to restart the game"
-_s_SCOREIS                  63488
+_s_SCOREIS
   "Your score is, ..."
-_t_WALLHIT                  63736
+_t_WALLHIT
   "You can't go through the wall!"
+
+Robotic speech for a new game I am yet to find
+
+center1
+  “Threat, zone white.”
+center2
+  “Serious threat, zone white.”
+left1
+  “Threat, zone red.”
+left2
+  “Serious threat, zone red.”
+right1
+  “Threat, zone blue.”
+right2
+  “Serious threat, zone blue.”
+inner1
+  “Internal threat.”
+inner2
+  “Serious internal threat.”
+connectionlost
+  “Communication system down.”
+data
+  “Incoming data. Repeat - incoming data.”
+transfer
+  “Data transfer. Repeat - data transfer in 5, 4, 3, 2, 1… Data transfer complete.”
+transfer1
+  “Data transfer. Repeat - data transfer in 5, 4, 3, 2, 1… Data transfer complete.”
+  * Has an additional annoying sound edited in but otherwise identical.
+end1a
+  “First phase ends in one minute.”
+end1b
+  “First phase ends in 20 seconds.”
+end1c
+  “First phase ends in 5, 4, 3, 2, 1… First phase has ended. Begin second phase.”
+end2a
+  “Second phase ends in one minute.”
+end2b
+  “Second phase ends in 20 seconds.”
+end2c
+  “Second phase ends in 5, 4, 3, 2, 1… Second phase has ended. Begin third phase.”
+end3a
+  “Operation ends in one minute.”
+end3b
+  “Operation ends in 20 seconds.”
+end3c
+  “Operation ends in 5, 4, 3, 2, 1… Mission complete. Jumping to hyperspace.”
+intro
+  “Alert - Enemy activity detected. Please begin first phase.”
+reconnected
+  “Communications restored.”
+repeat
+  “Repeat.”
+unconfirmed
+  “Unconfirmed report.”
+repeatUnconfirmed
+  “Repeat. Unconfirmed report.”
+t1
+  “Time T plus one.”
+t2
+  “Time T plus two.”
+t3
+  “Time T plus three.”
+t4
+  “Time T plus four.”
+t5
+  “Time T plus five.”
+t6
+  “Time T plus six.”
+t7
+  “Time T plus seven.”
+t8
+  “Time T plus eight.”
+
+Robotic speech for dice and timer utilities
+
+_c_DICE
+  “Dice”
+_c_4SDICE
+  “4-sided dice”
+_c_6SDICE
+  “6-sided dice”
+_c_8SDICE
+  “8-sided dice”
+_c_10SDICE
+  “10-sided dice”
+_c_12SDICE
+  “12-sided dice”
+_c_20SDICE
+  “20-sided dice”
+
+_c_ADVANCED
+  “Advanced”
+_c_DESELECTED
+  “Deselected”
+_c_DESELECTN
+  “Deselect number”
+
+_c_ONE
+  “One”
+_c_TWO
+  “Two”
+_c_THREE
+  “Three”
+_c_FOUR
+  “Four”
+_c_FIVE
+  “Five”
+_c_SIX
+  “Six”
+_c_SEVEN
+  “Seven”
+_c_EIGHT
+  “Eight”
+_c_NINE
+  “Nine”
+_c_TEN
+  “Ten”
+
+_c_FIRST
+  “First”
+_c_NFIRST
+  “First”
+  * Sounds exactly the same as _c_FIRST
+_c_SECOND
+  “Second”
+  * Possibly abused to mean the unit of time as well. Not sure.
+_c_THIRD
+  “Third”
+_c_FOURTH
+  “Fourth”
+_c_FIFTH
+  “Fifth”
+_c_SIXTH
+  “Sixth”
+
+_c_NUMBER
+  “Number”
+_c_SECONDS
+  “Seconds”
+_c_MINUTES
+  “Minutes”
+_c_MINUTES2
+  “Minutes”
+  * Slightly different intonation. Not sure why.
+
+_c_GAMETIMER
+  “Game timer”
+_c_MOVETIMER
+  “Move Timer”
+_c_MPDICE
+  “Multi-purpose dice”
+_c_MPGTIMER
+  “Multi-player game timer”
+_c_NOONEINGAME
+  “There is noone in-game.”
+
+_c_RUN
+  “Run”
+_c_SIDED
+  “-sided”
+_c_SIMULATION
+  “Simulation”
+_c_SMOVETIMER
+  “Saving move timer”
+_c_SPACEALERT
+  “Space alert”
+_c_TEST
+  “Test”
+_c_TIMEOVER
+  “Time is over”
+_c_TIMEZERO
+  “Time is zero”
+_c_TURNTOSTART
+  “Turn to start”
 
 Miscellaneous vocalisations during games
 
-_g_CRASH                    83848
+_g_CRASH
   crashing sound and a scream
-_g_CRASH2                   38266
+_g_CRASH2
   "Aich!Uff!"
-_t_AICH                     24568
+_t_AICH
   "Aich!"
-_t_UFF                      16446
+_t_UFF
   "Uff!"
-uff                         16404
+uff
   "Uff!" (yep, sounds the same...)
-applebite                  203904
+applebite
   The horrible sound of eating an apple.
-BREATH                      55288
+BREATH
   Breathing in and out
-clapping                   183438
+clapping
   Sound of applause
-fcvoice1                   189484
-fcvoice2                   229150
-fcvoice3                   254184
+fcvoice1
+fcvoice2
+fcvoice3
   Random unintelligible robotic voices
 
 Miscellaneous non-vocal sounds
 
-ballhit                     11102
-beep                        11538
-bell1                       78686
-bell2                       78604
-bongo                       18660
-bubble                       4800
-bubbles                    169344
-cink1                      504832
-cink2                      672768
-cink3                      485108
-click                       21350
-clickhigh                   15202
-clocktickfast              180988
-cube_move                   24386
-drip                        47046
-drums                      154368
-fanfare_short               58752
-fanfarelong                443520
-hb                         364842
-heartbeat                  393018
-hitrims                    850134
-hitrims1                   391248
-hitrims2                   483698
-hitrims3                   148960
-kap                         14044
-konec-prohra               297288
-PAGES                       70948
-sfx_loose1                 300794
-sfx_win1                   455122
-short_silence                2226
-snd1                       658632
-soko_back                    3048
-soko_level                 485108
-soko_no_stone               27240
-soko_start                 178390
-soko_step1                  20288
-soko_step2                  23936
-soko_stone                  20640
-soko_win                   754552
-soko_wrong                   4800
-startapp                    20480
-stone_placed               238640
-TURNPAGE                    39524
-vyhra                      181572
-vzum                        81920
-woodblock                   25344
-wrong_move                  24256
+ballhit
+beep
+bell1
+bell2
+bongo
+bubble
+bubbles
+cink1
+cink2
+cink3
+click
+clickhigh
+clocktickfast
+cube_move
+cube_rubik
+drip
+drums
+fanfare_short
+fanfarelong
+hb
+heartbeat
+hitrims
+hitrims1
+hitrims2
+hitrims3
+kap
+konec-prohra
+message
+message2
+noise
+noise5
+noise10
+noise15
+noise20
+noise25
+noise30
+PAGES
+redalert1
+redalert2
+redalert3
+sfx_loose1
+sfx_win1
+short_silence
+snd1
+soko_back
+soko_level
+soko_no_stone
+soko_start
+soko_step1
+soko_step2
+soko_stone
+soko_win
+soko_wrong
+startapp
+stone_placed
+TURNPAGE
+vyhra
+vzum
+warning
+warning2
+woodblock
+wrong_move
+
