@@ -7,6 +7,8 @@ I started this project to mess with files which the SDK doesn't yet let you cust
 
 [1]: http://www.futurocube.com/
 
+**NOTE: Most of the stuff in here is now unnecessary, as Futuro Cube's SDK now allows inserting sounds as zip files.**
+
 ## Installation
 
 Install the gem:
