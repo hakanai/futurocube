@@ -1,3 +1,8 @@
+#
+# Settings adjusted in VOICEROID+ before running:
+#   - End pause: 100ms   (stops popping sounds at the end)
+#
+
 require 'fileutils'
 
 VOICEROIDEX_EXE = File.expand_path('~/Documents/GitHub/VoiceroidEx/VoiceroidEx/bin/Debug/VoiceroidEx.exe')
